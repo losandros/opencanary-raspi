@@ -9,11 +9,9 @@ estimated 5 minutes (via wifi)
 <h1>boot and pre-configure raspian lite</h1>
 estimated 2 minutes
 
-login with default credentials (pi, raspberry)
-
-change pi password
-
-sudo raspi-config
+login with default credentials (pi, raspberry) <BR>
+change pi password <BR>
+sudo raspi-config <BR>
 
  --> localisation options
  
