@@ -23,6 +23,7 @@ sudo reboot <BR>
 
 <h1>Install filebeat </h1>
 estimated 2 minutes <BR>
+only works with logstash/elasticsearch/kibana -6.4.3 <BR>
 cd /home/pi <BR>
 git clone https://github.com/losandros/opencanary-raspi <BR>
 (for private repository auth is needed) <BR>
