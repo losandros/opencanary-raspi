@@ -2,7 +2,6 @@
 estimated 1 minutes
 https://www.raspberrypi.org/downloads/noobs/
 
-
 <h1>Install Raspian lite</h1>
 estimated 5 minutes (via wifi)
 
@@ -12,45 +11,27 @@ estimated 2 minutes
 login with default credentials (pi, raspberry) <BR>
 change pi password <BR>
 sudo raspi-config <BR>
-
- --> localisation options
- 
- --> Change wifi country
- 
- --> finish
- 
-sudo apt update
-
-sudo apt full-upgrade
-
-sudo apt install git
-
-sudo raspi-config 
-  --> change hostname
-
-sudo reboot
-
+ --> localisation options <BR>
+ --> Change wifi country <BR> 
+ --> finish <BR>
+sudo apt update <BR>
+sudo apt full-upgrade <BR>
+sudo apt install git <BR>
+sudo raspi-config <BR>
+  --> change hostname <BR>
+sudo reboot <BR>
 
 <h1>Install filebeat </h1>
-estimated 2 minutes
-
-cd /home/pi
-
-git clone https://github.com/losandros/opencanary-raspi ./
-
-(for private repository auth is needed)
-
-cd filebeat-package-6.4.3
-
-sh ./install.sh
+estimated 2 minutes <BR>
+cd /home/pi <BR>
+git clone https://github.com/losandros/opencanary-raspi ./ <BR>
+(for private repository auth is needed) <BR>
+cd filebeat-package-6.4.3 <BR>
+sh ./install.sh <BR>
 
 <h1>Install Opencanary Raspi Fork</h1>
-estimated 20 minutes
-
-cd ..
-
-cd opencanary-installer
-
-sh ./install.sh
-
-sh ./installer-env.sh
+estimated 20 minutes <BR>
+cd .. <BR>
+cd opencanary-installer <BR>
+sh ./install.sh <BR>
+sh ./installer-env.sh  <BR>
