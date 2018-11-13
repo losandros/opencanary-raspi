@@ -5,7 +5,7 @@ estimated 1 minutes
 <h1>Install Raspian lite</h1>
 estimated 5 minutes (via wifi)
 
-boot raspian lite
+<h1>boot and pre-configure raspian lite</h1>
 
 login with default credentials (pi, raspberry)
 
@@ -22,6 +22,8 @@ sudo raspi-config
 sudo apt update
 
 sudo apt full-upgrade
+
+sudo reboot
 
 
 <h1>Install via </h1>
