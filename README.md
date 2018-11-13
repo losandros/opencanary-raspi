@@ -26,6 +26,8 @@ sudo apt full-upgrade
 
 sudo apt install git
 
+hostname <NEW-HOST-NAME>
+
 sudo reboot
 
 
