@@ -4,6 +4,7 @@ pip install --upgrade pip setuptools
 pip install rdpy
 pip install scapy pcapy
 echo "downloading patron-it opencanary fork"
+cd /home/pi
 git clone https://github.com/losandros/opencanary
 echo "changing iptables log-level from warning to info"
 cd /home/pi/opencanary/opencanary/modules
