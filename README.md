@@ -35,5 +35,12 @@ estimated 20 minutes <BR>
 cd .. <BR>
 cd opencanary-installer <BR>
 sh ./install.sh <BR>
-source /home/pi/canary-env/bin/activate 
+source /home/pi/canary-env/bin/activate  <BR>
 sh ./installer-env.sh  <BR>
+
+<h1>Check</h1>
+check if services are running via <BR>
+sudo systemctl status filebeat.service <BR>
+sudo systemctl status opencanary-heartbeat.timer <BR>
+sudo systemctl status opencanary.service <BR>
+tail -f /var/tmp/opencanary* <BR> 
