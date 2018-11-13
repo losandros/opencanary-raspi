@@ -8,5 +8,5 @@ sudo apt install python-dev python-pip python-virtualenv libssl-dev libffi-dev l
 echo "creating virtualenv"
 mkdir canary-env
 virtualenv -p python2 canary-env
-echo "Now type: source ./canary-env/bin/activate"
-echo "After that within the virtualenv install-env.sh"
+echo "Now type: source /home/pi/canary-env/bin/activate"
+echo "After that within the virtualenv sh ./install-env.sh"

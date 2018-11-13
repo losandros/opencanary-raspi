@@ -24,7 +24,7 @@ sudo reboot <BR>
 <h1>Install filebeat </h1>
 estimated 2 minutes <BR>
 cd /home/pi <BR>
-git clone https://github.com/losandros/opencanary-raspi ./ <BR>
+git clone https://github.com/losandros/opencanary-raspi <BR>
 (for private repository auth is needed) <BR>
 cd filebeat-package-6.4.3 <BR>
 sh ./install.sh <BR>
@@ -34,4 +34,5 @@ estimated 20 minutes <BR>
 cd .. <BR>
 cd opencanary-installer <BR>
 sh ./install.sh <BR>
+source /home/pi/canary-env/bin/activate 
 sh ./installer-env.sh  <BR>
