@@ -28,7 +28,7 @@ sudo apt install git
 sudo reboot
 
 
-<h1>Install via </h1>
+<h1>Install filebeat </h1>
 
 cd /home/pi
 
@@ -38,11 +38,13 @@ git clone https://github.com/losandros/opencanary-raspi ./
 
 tar zxvf filebeat-package-6.4.3.tar.gz
 
-tar zxvf opencanary-raspi.tar.gz 
-
 cd filebeat-package-6.4.3
 
 sh ./install.sh
+
+<h1>Install Opencanary Raspi Fork</h1>
+
+tar zxvf opencanary-raspi.tar.gz
 
 cd ..
 
