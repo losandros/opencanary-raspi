@@ -1,5 +1,5 @@
 <h1>Copy NOOBS to pre-formated SD-Card</h1>
-<font color="red">estimated 1 minutes</font>
+estimated 1 minutes
 https://www.raspberrypi.org/downloads/noobs/
 
 <h1>Install Raspian lite</h1>
