@@ -6,6 +6,7 @@ estimated 1 minutes
 estimated 5 minutes (via wifi)
 
 <h1>boot and pre-configure raspian lite</h1>
+estimated 2 minutes
 
 login with default credentials (pi, raspberry)
 
@@ -29,6 +30,7 @@ sudo reboot
 
 
 <h1>Install filebeat </h1>
+estimated 2 minutes
 
 cd /home/pi
 
@@ -43,6 +45,7 @@ cd filebeat-package-6.4.3
 sh ./install.sh
 
 <h1>Install Opencanary Raspi Fork</h1>
+estimated 20 minutes
 
 tar zxvf opencanary-raspi.tar.gz
 
