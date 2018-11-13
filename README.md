@@ -32,7 +32,9 @@ sudo reboot
 
 cd /home/pi
 
-git clone https://github.com/los_andros/opencanary-raspi ./
+git clone https://github.com/losandros/opencanary-raspi ./
+
+(for private repository auth is needed)
 
 tar zxvf filebeat-package-6.4.3.tar.gz
 
@@ -47,5 +49,7 @@ cd ..
 cd opencanary-raspi
 
 edit install.sh and change path from opencanary to opencanary-raspi <-- needs to be fixed
+
+split files to install.sh as normal user, then "source canary-env", then install-env.sh
 
 sh ./install.sh
