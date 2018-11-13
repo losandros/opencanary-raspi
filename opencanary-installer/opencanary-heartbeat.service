@@ -1,0 +1,9 @@
+[Unit]
+Description=opencanary heartbeat
+
+[Service]
+WorkingDirectory=/home/pi
+ExecStart=/home/pi/canary-env/bin/canary-uptime.sh
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,9 @@
+[Unit]
+Description=opencanary heartbeat
+
+[Timer]
+OnCalendar=*-*-* *:*:00
+Unit=opencanary-heartbeat.service
+
+[Install]
+WantedBy=timers.target

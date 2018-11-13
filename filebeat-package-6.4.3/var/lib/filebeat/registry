@@ -1,0 +1,1 @@
+[{"source":"/var/tmp/opencanary.log","offset":35366,"timestamp":"2018-11-09T14:07:23.238760987+01:00","ttl":-1,"type":"log","meta":null,"FileStateOS":{"inode":135838,"device":45831}},{"source":"/var/tmp/opencanary-up.log","offset":21802,"timestamp":"2018-11-12T16:07:06.933029453+01:00","ttl":-1,"type":"log","meta":null,"FileStateOS":{"inode":149354,"device":45831}}]
