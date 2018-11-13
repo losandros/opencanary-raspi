@@ -4,14 +4,23 @@ estimated 1 minutes
 
 <h1>Install Raspian lite</h1>
 estimated 5 minutes (via wifi)
+
 boot raspian lite
+
 login with default credentials (pi, raspberry)
+
 change pi password
+
 sudo raspi-config
+
  --> localisation options
+ 
  --> Change wifi country
+ 
  --> finish
+ 
 sudo apt update
+
 sudo apt full-upgrade
 
 
