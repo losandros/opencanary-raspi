@@ -34,6 +34,6 @@ echo "copying opencanary-heartbeat timer and service"
 cp /home/pi/opencanary-raspi/opencanary-installer/canary-uptime.sh /home/pi/canary-env/bin/
 sudo cp opencanary-heartbeat.* /lib/systemd/system/
 sudo systemctl enable opencanary-heartbeat.timer
-echo "Starting opencanary service and opencanary-heartbeat"
-sudo service opencanary start
+echo "Starting opencanary-heartbeat"
 sudo systemctl start opencanary-heartbeat.timer
+echo "to start opencanary daemon, start with > sudo service opencanary start"
