@@ -46,4 +46,6 @@ cd ..
 
 cd opencanary-raspi
 
+edit install.sh and change path from opencanary to opencanary-raspi <-- needs to be fixed
+
 sh ./install.sh
