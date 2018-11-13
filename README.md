@@ -23,6 +23,8 @@ sudo apt update
 
 sudo apt full-upgrade
 
+sudo apt install git
+
 sudo reboot
 
 
