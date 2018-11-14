@@ -14,13 +14,11 @@ cd ../../
 echo "installing opencanary via pip"
 pip install opencanary
 sudo mkdir -p /etc/opencanaryd
-opencanaryd --copyconfig
 read -p "Enter Honeypot name (best the same as hostname): " honeypotname
-cat /home/pi/.opencanary.conf | sed s/"opencanary-1"/"$honeypotname"/g | sed s/'"portscan.enabled":\ false'/'"portscan.enabled":\ true'/g | sed s/'"ssh.enabled":\ false'/'"ssh.enabled":\ true'/g >> /home/pi/opencanary.conf
-echo "config copied to /etc/opencanaryd/opencanary-conf"
+cat /home/pi/opencanary-raspi/opencanary-installer/opencanary.conf | sed s/"opencanary-1"/"$honeypotname"/g | sed s/'"portscan.enabled":\ false'/'"portscan.enabled":\ true'/g | sed s/'"ssh.enabled":\ false'/'"ssh.enabled":\ true'/g >> /home/pi/opencanary.conf
+echo "config copied to /etc/opencanaryd/opencanary.conf"
 echo "Adjust to your needs"
 sudo mv /home/pi/opencanary.conf /etc/opencanaryd/
-sudo rm -f /etc/opencanaryd/.opencanary.conf
 cp bin/opencanary.tac /home/pi/canary-env/bin/opencanary.tac
 echo "creating empty logfile in/var/tmp/"
 sudo touch /var/tmp/opencanary.log
