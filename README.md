@@ -27,6 +27,7 @@ only works with logstash/elasticsearch/kibana -6.4.3 <BR>
 cd /home/pi <BR>
 git clone https://github.com/losandros/opencanary-raspi <BR>
 (for private repository auth is needed) <BR>
+cd opencanary-raspi <BR>
 cd filebeat-package-6.4.3 <BR>
 sh ./install.sh <BR>
 
