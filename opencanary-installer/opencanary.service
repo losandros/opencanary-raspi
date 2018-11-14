@@ -7,7 +7,7 @@ After=network-online.target
 [Service]
 User=pi
 WorkingDirectory=/home/pi
-ExecStart=/home/pi/canary-env/bin/opencanaryd --start
+ExecStart=/home/pi/canary-env/bin/opencanaryd --dev
 ExecStop=/home/pi/canary-env/bin/opencanaryd --stop
 
 [Install]
