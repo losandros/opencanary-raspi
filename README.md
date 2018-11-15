@@ -1,3 +1,8 @@
+Thanks for the awesome work done by: <BR>
+- Thinkst: https://github.com/thinkst/opencanary <BR>
+- Patron-IT: https://github.com/patron-it/opencanary <BR>
+- ChrisWhiteHat: https://github.com/chriswhitehat/opencanary <BR>
+
 <h1>Copy NOOBS to pre-formated SD-Card</h1>
 estimated 1 minutes
 https://www.raspberrypi.org/downloads/noobs/
