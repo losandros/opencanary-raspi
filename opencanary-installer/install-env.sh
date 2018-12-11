@@ -32,7 +32,9 @@ echo -e "\e[32mcopying opencanary-heartbeat timer and service\e[39m"
 cp /home/pi/opencanary-raspi/opencanary-installer/canary-uptime.sh /home/pi/canary-env/bin/
 sudo cp opencanary-heartbeat.* /lib/systemd/system/
 sudo systemctl enable opencanary-heartbeat.timer
-echo -e "\e[32mStarting opencanary-heartbeat\e[39m"
+echo -e "\e[32mStarting opencanary-heartbeat and opencanary\e[39m"
 sudo systemctl start opencanary-heartbeat.timer
+sudo systemctl start opencanary.service
+#sudo update-rc.d service enable
 echo -e "\e[32mto start opencanary daemon, start with > sudo service opencanary start\e[39m"
 echo -e "\e[32mif that fails manually start with > /home/pi/canary-env/bin/opencanaryd --start \e[39m"

@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo service filebeat stop
 sudo mkdir -p /usr/share/filebeat/bin
 sudo mkdir -p /etc/filebeat
 sudo mkdir -p /var/lib/filebeat
